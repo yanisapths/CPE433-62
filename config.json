@@ -10,6 +10,13 @@
             "Singleton" : "false"
         },
         {
+            "Path" : "clientinfo",
+            "Class" : "DNWS.ClientinfoPlugin",
+            "Preprocessing" : "true",
+            "Postprocessing" : "false" ,
+            "Singleton" : "false"
+        },
+        {
             "Path" : "ox",
             "Class" : "DNWS.OXPlugin",
             "Preprocessing" : "false",
@@ -21,5 +28,6 @@
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
         }
+
     ]
 }

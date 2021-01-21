@@ -5,10 +5,10 @@ using System.Text.RegularExpressions;
 
 namespace DNWS
 {
-  class StatPlugin : IPlugin
+  class ClientinfoPlugin : IPlugin
   {
     protected static Dictionary<String, int> statDictionary = null;
-    public StatPlugin()
+    public ClientinfoPlugin()
     {
       if (statDictionary == null)
       {
@@ -32,12 +32,19 @@ namespace DNWS
     {
       HTTPResponse response = null;
       StringBuilder sb = new StringBuilder();
-     
-      sb.Append("<html><body><h1>Stat:</h1>");
-      foreach (KeyValuePair<String, int> entry in statDictionary)
-      {
-        sb.Append(entry.Key + ": " + entry.Value.ToString() + "<br />");
-      } 
+      String[] client = Regex.Split(request.getPropertyByKey("RemoteEndPoint"),":");
+      sb.Append("</body></html>");
+      sb.Append("Client IP: "+client[0].ToString() + "<br /><br />");
+      sb.Append("Client Port: "+client[1].ToString() + "<br /><br />");
+      sb.Append("Browser Information: "+request.getPropertyByKey("user-agent").ToString()+"<br /><br />");
+      sb.Append("Acept Language: "+request.getPropertyByKey("accept-language").ToString()+"<br /><br />");
+      sb.Append("Acept Encoding: "+request.getPropertyByKey("accept-encoding").ToString()+"<br /><br />");
+      // sb.Append("<html><body><h1>Stat:</h1>");
+      // foreach (KeyValuePair<String, int> entry in statDictionary)
+      // {
+      //   sb.Append(entry.Key + ": " + entry.Value.ToString() + "<br />");
+      // } 
+      //
       response = new HTTPResponse(200);
        sb.Append("</body></html>");
       response.body = Encoding.UTF8.GetBytes(sb.ToString());

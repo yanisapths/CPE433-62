@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj": {}
+  },
+  "projects": {
+    "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+        "projectName": "DNWS",
+        "projectPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+        "packagesPath": "C:\\Users\\yanisa\\.nuget\\packages\\",
+        "outputPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yanisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

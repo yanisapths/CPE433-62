@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
+
 namespace DNWS
 {
   class ClientinfoPlugin : IPlugin
@@ -33,7 +34,7 @@ namespace DNWS
       HTTPResponse response = null;
       StringBuilder sb = new StringBuilder();
       String[] client = Regex.Split(request.getPropertyByKey("RemoteEndPoint"),":");
-      sb.Append("</body></html>");
+      sb.Append("<html><body>");
       sb.Append("Client IP: "+client[0].ToString() + "<br /><br />");
       sb.Append("Client Port: "+client[1].ToString() + "<br /><br />");
       sb.Append("Browser Information: "+request.getPropertyByKey("user-agent").ToString()+"<br /><br />");

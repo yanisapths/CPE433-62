@@ -94,6 +94,15 @@
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         }
+      },
+      "System.Text.Json/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
       }
     }
   },
@@ -223,12 +232,35 @@
         "microsoft.extensions.primitives.nuspec",
         "packageIcon.png"
       ]
+    },
+    "System.Text.Json/5.0.1": {
+      "sha512": "/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.1.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Extensions.Configuration >= 3.1.0",
-      "Microsoft.Extensions.Configuration.Json >= 3.1.0"
+      "Microsoft.Extensions.Configuration.Json >= 3.1.0",
+      "System.Text.Json >= 5.0.1"
     ]
   },
   "packageFolders": {
@@ -237,11 +269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+      "projectUniqueName": "d:\\hw3\\CPE433-62\\DNWS.csproj",
       "projectName": "DNWS",
-      "projectPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+      "projectPath": "d:\\hw3\\CPE433-62\\DNWS.csproj",
       "packagesPath": "C:\\Users\\yanisa\\.nuget\\packages\\",
-      "outputPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\obj\\",
+      "outputPath": "d:\\hw3\\CPE433-62\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yanisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -273,6 +305,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           }
         },
         "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj": {}
+    "D:\\hw3\\CPE433-62\\DNWS.csproj": {}
   },
   "projects": {
-    "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj": {
+    "D:\\hw3\\CPE433-62\\DNWS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+        "projectUniqueName": "D:\\hw3\\CPE433-62\\DNWS.csproj",
         "projectName": "DNWS",
-        "projectPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+        "projectPath": "D:\\hw3\\CPE433-62\\DNWS.csproj",
         "packagesPath": "C:\\Users\\yanisa\\.nuget\\packages\\",
-        "outputPath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\obj\\",
+        "outputPath": "D:\\hw3\\CPE433-62\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yanisa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

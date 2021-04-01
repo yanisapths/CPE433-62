@@ -10,13 +10,6 @@
             "Singleton" : "false"
         },
         {
-            "Path" : "clientinfo",
-            "Class" : "DNWS.ClientinfoPlugin",
-            "Preprocessing" : "true",
-            "Postprocessing" : "false" ,
-            "Singleton" : "false"
-        },
-        {
             "Path" : "ox",
             "Class" : "DNWS.OXPlugin",
             "Preprocessing" : "false",
@@ -27,7 +20,12 @@
             "Class" : "DNWS.DelayPlugin",
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
+        },
+        {
+            "Path" : "pm25",
+            "Class" : "DNWS.PM25Plugin",
+            "Preprocessing" : "false",
+            "Postprocessing" :"false" 
         }
-
     ]
 }

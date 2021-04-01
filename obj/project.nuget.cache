@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vRv7emcoS4WoToDDmT3fR1DVeqOaaHVKQ/uch17PU0myN6f67qFzjoLcDDhtUtTI/vtYX6e7ES6QLkccrfLvVw==",
+  "dgSpecHash": "Ih5JCaUlzdLCpjVKVe3o2oet+7FvOe4nG2iXYCtvWBldReM4XGRygpNNStxBNDQ5HNd1wgkQdUduJLf4aaPF4Q==",
   "success": true,
-  "projectFilePath": "D:\\isneปี2เทอม2\\networkprogramming\\CPE433-62-master\\CPE433-62-master\\DNWS.csproj",
+  "projectFilePath": "D:\\hw3\\CPE433-62\\DNWS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",
     "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.0\\microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
@@ -11,7 +11,8 @@
     "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.0\\microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.0\\microsoft.extensions.fileproviders.physical.3.1.0.nupkg.sha512",
     "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.0\\microsoft.extensions.filesystemglobbing.3.1.0.nupkg.sha512",
-    "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512"
+    "C:\\Users\\yanisa\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "C:\\Users\\yanisa\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
